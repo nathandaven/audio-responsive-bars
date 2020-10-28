@@ -1,0 +1,142 @@
+<html>
+<!--    
+     https://shop.rosemarypiercemodernart.com/product/sound-wave-no14-modern-geometric-abstract-painted-wood-wall-sculpture-by-rosemary-pierce
+ -->
+
+<head>
+    <meta name="Nathan Davenport - AFRAME" content="2D image in 3D space.">
+    <meta aframe-injected="" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=no,user-scalable=no,minimal-ui">
+    <meta aframe-injected="" name="mobile-web-app-capable" content="yes">
+    <meta aframe-injected="" name="theme-color" content="black">
+
+    <!-- <style type="text/css" href="styles.css"></style> -->
+    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-animation-component@%5E3.2.x/dist/aframe-animation-component.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+
+
+    <script src="js/script.js"></script>
+    <script src="js/song2.js"></script>
+
+
+
+</head>
+
+<body class="a-body">
+
+    <div id="buttons"></div>
+
+    <a style="text-align: left">Now Playing: Differant Age by Current Joys  -   </a>
+
+    <a id="button" href="song1.html">Song 1</a>
+    <a id="button" href="song2.html">Song 2</a>
+    <a id="button" href="song3.html">Song 3</a>
+    </div>
+
+
+    <!-- <button>Start</button> -->
+    <div id="aframe">
+        <a-scene embedded id="myEmbeddedScene" class="fullscreen" inspector keyboard-shortcuts screenshot vr-mode-ui>
+            <a-assets>
+
+                <img id="wood" src="wood-texture.jpg">
+                <img id="sky" src="sky.jpg">
+
+            </a-assets>
+
+            <a-entity camera look-controls movement-controls wasd-controls position="4 1.6 0"></a-entity>
+            <a-cursor></a-cursor>
+
+
+            <a-entity audiodata position rotation scale visible></a-entity>
+
+            <!-- <a-entity environment="preset: volcano"></a-entity> -->
+
+
+            <a-sky src="#sky" change-color-on-hover="color: #FFF00F"></a-sky>
+
+
+
+
+
+            <a-box id="box0" position="-3.57846 1.959 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; repeat: 50; color: #d0b700 " scale="0.39 3.88 26 " change-color-on-hover="color: #FFF00F" rotation scale visible material geometry></a-box>
+
+            <a-box id="box1" position="-4.29 2.09 -13.327" color="#4CC3D9" material="src: #wood;  repeat: 50; color: #4d9583" scale="1.06 2.64 28" change-color-on-hover="color: #FFF00F" rotation scale visible material geometry></a-box>
+
+            <a-box id="box2" position="-3.04 1.95858 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #c0c0c0 " scale="0.65 4.91 25 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box3" position="-2.54535 1.74634 -13.327" color="#4CC3D9" material="src: #wood;  repeat: 50; color: #35b715" scale="0.36 4.61 24" change-color-on-hover="color: #FFF00F" rotation scale visible material geometry></a-box>
+
+            <a-box id="box4" position="-2.03879 0.93855 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #004257 " scale="0.65 4.89 23 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box5" position="-1.6103 1.42237 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #69e470 " scale="0.17 4.91 22 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box6" position="-1.19294 1.6806 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #5c5c5c " scale="0.65 4.91 21 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box7" position="-0.08823 1.06745 -13.327" color="#4CC3D9" material="src: #wood;  repeat: 50; color: #35b715" scale="0.36 4.26 20" change-color-on-hover="color: #FFF00F" rotation scale visible material geometry></a-box>
+
+            <a-box id="box8" position="0.16084 1.959 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #313131 " scale="0.13 3.53 19 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box9" position="0.39 1.74085 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #284d44 " scale="0.35 2.02 17 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box10" position="0.889 2.09636 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #fff200 " scale="0.65 4.64 15 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box11" position="1.34465 1.74634 -13.447 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #009f9f " scale="0.34 4.61 13 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box12" position="1.73154 0.679 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #727272 " scale="0.43 4.17 11 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box13" position="1.97348 0.87737 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #000000 " scale="0.13 3.54 9 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box14" position="2.37792 0.99947 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #2cd845 " scale="0.65 4.02 7 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box15" position="2.37792 0.99947 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #2cd845 " scale="0.65 4.02 5 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box16" position="3.40011 1.10237 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #400000 " scale="0.17 1.94 3 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box17" position="2.91358 1.50947 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #005680 " scale="0.4 4.02 1 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box18" position="3.32075 1.10237 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #dda600 " scale="0.4 1.94 3 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box19" position="3.70822 1.49485 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #00cece " scale="0.4 1.94 5 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box20" position="4.16125 0.79764 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #ff732f " scale="0.53 2.24 9 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box21" position="4.58878 1.31101 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #04c69f " scale="0.33 2.17 11 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box22" position="5.6179 1.32049 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #006c67 " scale="1.71 1.72 13 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box23" position="6.71596 1.44441 -13.327" color="#4CC3D9" material="src: #wood;  repeat: 50; color: #005128" scale="0.51 2.35 15" change-color-on-hover="color: #FFF00F" rotation scale visible material geometry></a-box>
+
+            <a-box id="box24" position="7.12141 1.03086 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #03b491 " scale="0.33 2.08 17 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box25" position="7.34953 1.41098 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #002200 " scale="0.13 3.54 19 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box26" position="7.82788 0.7107 -13.327" color="#4CC3D9" material="src: #wood;  repeat: 50; color: #898f98" scale="0.38 2.17 20" change-color-on-hover="color: #FFF00F" rotation scale visible material geometry></a-box>
+
+            <a-box id="box27" position="8.06511 1.02412 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #000000 " scale="0.09 3.02 21 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box28" position="8.3238 0.80299 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #f0ae00 " scale="0.4 4.32 22 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box29" position="8.77264 1.20562 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #002448 " scale="0.52 2.17 23 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box30" position="9.1919 1.50947 -13.327" color="#4CC3D9" material="src: #wood;  repeat: 50; color: #5b5b5b" scale="0.35 4.49 24" change-color-on-hover="color: #FFF00F" rotation scale visible material geometry></a-box>
+
+            <a-box id="box31" position="9.56107 1.54903 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #f45000 " scale="0.42 3.07 25.3 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+            <a-box id="box32" position="9.79424 1.50947 -13.327" color="#4CC3D9" material="src: #wood;  repeat: 50; color: #65ca00" scale="0.08 4.02 26" change-color-on-hover="color: #FFF00F" rotation scale visible material geometry></a-box>
+
+            <a-box id="box33" position="10.11633 1.31101 -13.327 " color="#4CC3D9 " material="src: #wood; repeat: 50; color: #007373 " scale="0.55 1.59 28 " change-color-on-hover="color: #FFF00F " rotation scale visible material geometry></a-box>
+
+
+
+
+
+        </a-scene>
+    </div>
+
+</body>
+
+</html>

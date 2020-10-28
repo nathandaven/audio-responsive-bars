@@ -1,0 +1,39 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: black;
+}
+
+h1 {
+    font-size: 36pt;
+    color: white;
+    margin-top: 10%;
+}
+
+h2 {
+    font-size: 48pt;
+    color: white;
+    margin-top: 15%;
+}
+
+h3 {
+    font-size: 24pt;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a-scene {
+    margin-top: 5px;
+    height: 97%;
+    width: 100%;
+}
+
+#button {
+    text-align: center;
+}
+
+#buttons {
+    text-align: center;
+}
